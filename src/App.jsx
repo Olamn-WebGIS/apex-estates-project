@@ -10,7 +10,7 @@ import Signup from "./pages/Signup";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/apex-estates-project">
       <div className="d-flex flex-column min-vh-100 bg-light">
         <Navbar />
         <main className="flex-grow-1">
