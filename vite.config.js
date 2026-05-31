@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/react-refresh' // or '@vitejs/plugin-react' depending on your setup
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/apex-estates-project/', // 👈 ADD THIS EXACT LINE WITH YOUR REPO NAME
 })
